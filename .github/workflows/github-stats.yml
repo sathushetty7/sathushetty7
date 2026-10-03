@@ -1,4 +1,4 @@
-
+```yaml
 name: Update GitHub Stats
 
 on:
@@ -37,9 +37,6 @@ jobs:
           query = """
           query($login: String!) {
             user(login: $login) {
-              repositories(privacy: PUBLIC) {
-                totalCount
-              }
               followers {
                 totalCount
               }
@@ -48,6 +45,7 @@ jobs:
                 privacy: PUBLIC,
                 ownerAffiliations: OWNER
               ) {
+                totalCount
                 nodes {
                   stargazerCount
                 }
@@ -75,18 +73,23 @@ jobs:
               }
           )
 
-          with urllib.request.urlopen(req) as response:
+          with urllib.request.urlopen(req, timeout=30) as response:
               result = json.load(response)
 
-          if "errors" in result:
+          if result.get("errors"):
               raise RuntimeError(result["errors"])
 
           user = result["data"]["user"]
-          repos = user["repositories"]["totalCount"]
+
+          if user is None:
+              raise RuntimeError(f"GitHub user not found: {username}")
+
+          repositories = user["repositories"]
+          repos = repositories["totalCount"]
           followers = user["followers"]["totalCount"]
           stars = sum(
               repo["stargazerCount"]
-              for repo in user["repositories"]["nodes"]
+              for repo in repositories["nodes"]
           )
           contributions = user["contributionsCollection"][
               "contributionCalendar"
@@ -95,8 +98,8 @@ jobs:
           stats = [
               ("Public repositories", repos),
               ("Followers", followers),
-              ("Stars on latest 100 owned repos", stars),
-              ("Public contributions this year", contributions),
+              ("Stars on first 100 owned repos", stars),
+              ("Contributions this year", contributions),
           ]
 
           rows = ""
@@ -138,3 +141,4 @@ jobs:
             git commit -m "chore: update GitHub stats"
             git push
           fi
+```
