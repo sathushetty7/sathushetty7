@@ -1,141 +1,196 @@
-<!--
-  Replace any links marked TODO with your real profile links.
-  Keep only technologies you have actually used or are actively learning.
--->
 
 <div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:2C5364&height=230&section=header&text=SATHWIK%20SHETTY&fontSize=48&fontColor=ffffff&animation=twinkling&fontAlignY=38&desc=CSE%20%7C%20DATA%20SCIENCE%20%7C%20AI%2FML&descAlignY=60&descSize=18" width="100%" />
+</div>
 
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:2563EB,100:7C3AED&height=220&section=header&text=SANJAN&fontSize=54&fontColor=FFFFFF&animation=twinkling&fontAlignY=36&desc=CSE%20%26%20Data%20Science%20%7C%20Developer%20%7C%20AI%2FML%20Learner&descAlignY=58&descSize=16" width="100%" alt="Animated profile banner" />
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=21&duration=3000&pause=1000&color=36BCF7&center=true&vCenter=true&width=700&lines=Hey%2C+I'm+Sathwik+Shetty+%F0%9F%91%8B;Computer+Science+%26+Data+Science+Student;Exploring+AI%2C+ML+%26+Data+Analytics;Building+Web+Applications+%26+Real-World+Projects;Learning+Something+New+Every+Day+%F0%9F%9A%80" alt="Typing SVG" />
+</div>
 
-  <a href="https://readme-typing-svg.demolab.com">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=21&duration=3000&pause=900&color=58A6FF&center=true&vCenter=true&width=650&lines=Building+real-world+projects;Exploring+AI%2FML+and+Data+Science;Learning+by+building+and+experimenting;Turning+ideas+into+working+software" alt="Typing animation" />
-  </a>
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="80%" />
+</div>
 
-  <br/>
-
+<div align="center">
   <a href="https://github.com/sathushetty7">
-    <img src="https://komarev.com/ghpvc/?username=sathushetty7&label=PROFILE%20VIEWS&color=2563eb&style=for-the-badge" alt="Profile views" />
+    <img src="https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github" />
   </a>
-  <a href="https://github.com/sathushetty7?tab=followers">
-    <img src="https://img.shields.io/github/followers/sathushetty7?label=FOLLOWERS&style=for-the-badge&color=7c3aed" alt="GitHub followers" />
+  <a href="https://github.com/sathushetty7?tab=repositories">
+    <img src="https://img.shields.io/badge/Explore-Projects-0A66C2?style=for-the-badge&logo=github" />
   </a>
-
+  <img src="https://komarev.com/ghpvc/?username=sathushetty7&style=for-the-badge&color=0e75b6&label=PROFILE+VIEWS" />
 </div>
 
 ---
 
 ## 👨‍💻 About Me
 
+<img align="right" alt="Coding Animation" width="280" src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" />
+
 ```yaml
-name: Sanjan
-education: Computer Science Engineering & Data Science
-currently_learning:
-  - Machine Learning and Deep Learning
-  - Data Analysis and Data Science
-  - Full-Stack Web Development
+name: Sathwik Shetty
+role: Computer Science & Data Science Student
+location: India
+
 interests:
   - Artificial Intelligence
-  - Building useful software
-  - Data-driven problem solving
-  - Open-source collaboration
-mindset: "Learn the fundamentals. Build projects. Keep improving."
+  - Machine Learning
+  - Data Science & Analytics
+  - Web Development
+  - Problem Solving
+  - Building Real-World Projects
+
+currently_exploring:
+  - Neural Networks
+  - Deep Learning
+  - Generative AI
+  - Data Analytics
+  - AI-Powered Applications
+
+philosophy: >
+  Learn the fundamentals, build projects,
+  understand the code, and keep improving.
 ```
 
-- 🔭 I enjoy building practical web applications and experimenting with new ideas.
-- 🌱 Currently learning AI/ML concepts step by step, from fundamentals to neural networks and Generative AI.
-- 🧩 I value understanding the code, solving problems, and improving projects—not just getting them to run.
-- 🤝 Open to collaborating on student projects, hackathons, and useful developer tools.
+- 🎓 Studying Computer Science and Data Science.
+- 🤖 Exploring AI, Machine Learning and Generative AI.
+- 💻 Building web applications and practical software projects.
+- 📊 Interested in turning data into useful insights.
+- 🌱 Continuously learning through hands-on projects.
+- 🚀 Focused on understanding technology, not just using it.
+
+<br clear="right"/>
 
 ---
 
-## 🧰 Tech Arsenal
+## 🛠️ Tech Arsenal
 
-> Tools and technologies I use or am exploring. I keep this list aligned with my actual experience.
+### 👨‍💻 Programming Languages
 
-### 💻 Programming Languages
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=python,java,c,js,ts,html,css" />
+</div>
 
-<p>
-  <img src="https://skillicons.dev/icons?i=python,java,c,js,ts&theme=dark" alt="Programming languages" />
+### 🌐 Web Development
+
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=nextjs,react,tailwind,flutter" />
+</div>
+
+### 🗄️ Databases & Backend
+
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=supabase,postgres" />
+</div>
+
+### ⚙️ Tools & Platforms
+
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=git,github,vscode,vercel" />
+</div>
+
+<p align="center">
+  <i>My toolkit continues to grow as I learn and build.</i>
 </p>
-
-### 🌐 Web & App Development
-
-<p>
-  <img src="https://skillicons.dev/icons?i=html,css,react,nextjs,tailwind,flutter&theme=dark" alt="Web and app technologies" />
-</p>
-
-### 🗄️ Backend, Data & Tools
-
-<p>
-  <img src="https://skillicons.dev/icons?i=supabase,postgres,git,github,vscode&theme=dark" alt="Backend and developer tools" />
-</p>
-
-**Exploring:** Python for Data Science · NumPy · Pandas · Data Visualization · Machine Learning · Neural Networks · Generative AI
 
 ---
 
 ## 🚀 Featured Projects
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🛍️ Coastal Kits</h3>
-      <p>A sports-jersey e-commerce project focused on product discovery and online shopping.</p>
-      <p><b>Focus:</b> E-commerce · Web Development</p>
-      <a href="https://coastalkits.in/">
-        <img src="https://img.shields.io/badge/Visit_Website-0D1117?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Visit Coastal Kits" />
-      </a>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🪐 AstroView</h3>
-      <p>An interactive space-exploration project built to make discovering space engaging.</p>
-      <p><b>Focus:</b> Web Development · Interactive UI</p>
-      <a href="https://github.com/sathushetty7/AstroView">
-        <img src="https://img.shields.io/badge/View_Repository-0D1117?style=for-the-badge&logo=github&logoColor=white" alt="AstroView repository" />
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>📊 DataPulse</h3>
-      <p>A dataset-analyzer project designed to help users explore datasets and find useful insights.</p>
-      <p><b>Focus:</b> Data Analysis · Data Science</p>
-      <a href="https://github.com/sathushetty7/DataPulse">
-        <img src="https://img.shields.io/badge/View_Repository-0D1117?style=for-the-badge&logo=github&logoColor=white" alt="DataPulse repository" />
-      </a>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🥗 NutriTrack</h3>
-      <p>A nutrition-tracking web app concept for viewing calories and macronutrients.</p>
-      <p><b>Focus:</b> Next.js · TypeScript · Tailwind CSS</p>
-      <em>Repository link to be added when ready to feature.</em>
-    </td>
-  </tr>
-</table>
-
----
-
-## 📊 GitHub Statistics
+<div align="center">
+  <table>
+    <tr>
+      <td width="50%" valign="top">
+        <h3 align="center">🛍️ Coastal Kits</h3>
+        <p align="center">
+          <a href="https://coastalkits.in/">
+            <img src="https://img.shields.io/badge/Visit-Website-0A7B83?style=for-the-badge&logo=googlechrome&logoColor=white" />
+          </a>
+        </p>
+        <p align="center">
+          An online sports jersey store focused on product discovery and e-commerce experiences.
+        </p>
+        <p align="center">
+          <img src="https://img.shields.io/badge/Next.js-black?style=flat&logo=next.js" />
+          <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white" />
+          <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat&logo=supabase&logoColor=white" />
+        </p>
+      </td>
+      <td width="50%" valign="top">
+        <h3 align="center">🌌 AstroView</h3>
+        <p align="center">
+          <a href="https://github.com/sathushetty7/AstroView">
+            <img src="https://img.shields.io/badge/View-Repository-181717?style=for-the-badge&logo=github" />
+          </a>
+        </p>
+        <p align="center">
+          A space-exploration web project designed to make discovering the universe interactive.
+        </p>
+        <p align="center">
+          <img src="https://img.shields.io/badge/Web-Development-0A7B83?style=flat&logo=googlechrome&logoColor=white" />
+          <img src="https://img.shields.io/badge/Explore-Space-6C63FF?style=flat" />
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td width="50%" valign="top">
+        <h3 align="center">📊 DataPulse</h3>
+        <p align="center">
+          <a href="https://github.com/sathushetty7/DataPulse">
+            <img src="https://img.shields.io/badge/View-Repository-181717?style=for-the-badge&logo=github" />
+          </a>
+        </p>
+        <p align="center">
+          A dataset analysis project focused on exploring data and making analysis more accessible.
+        </p>
+        <p align="center">
+          <img src="https://img.shields.io/badge/Data-Analytics-3776AB?style=flat" />
+          <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" />
+        </p>
+      </td>
+      <td width="50%" valign="top">
+        <h3 align="center">🥗 NutriTrack</h3>
+        <p align="center">
+          <img src="https://img.shields.io/badge/Status-In%20Development-orange?style=for-the-badge" />
+        </p>
+        <p align="center">
+          A nutrition-tracking website concept for viewing calories, macronutrients and nutrition information.
+        </p>
+        <p align="center">
+          <img src="https://img.shields.io/badge/Next.js-black?style=flat&logo=next.js" />
+          <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white" />
+          <img src="https://img.shields.io/badge/Tailwind-06B6D4?style=flat&logo=tailwindcss&logoColor=white" />
+        </p>
+      </td>
+    </tr>
+  </table>
+</div>
 
 <div align="center">
-
-  <img height="175" src="https://github-readme-stats.vercel.app/api?username=sathushetty7&show_icons=true&hide_border=true&theme=tokyonight&rank_icon=github" alt="GitHub statistics" />
-  <img height="175" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sathushetty7&layout=compact&hide_border=true&theme=tokyonight&langs_count=8" alt="Top languages" />
-
-  <br/>
-
-  <img src="https://streak-stats.demolab.com?user=sathushetty7&theme=tokyonight&hide_border=true" alt="GitHub contribution streak" />
-
+  <a href="https://github.com/sathushetty7?tab=repositories">
+    <img src="https://img.shields.io/badge/Explore%20All%20Repositories-View%20Projects-181717?style=for-the-badge&logo=github" />
+  </a>
 </div>
 
 ---
 
-## 📈 Contribution Activity
+## 📈 GitHub Statistics
 
 <div align="center">
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=sathushetty7&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github&include_all_commits=true" alt="GitHub Stats" />
+  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sathushetty7&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages" />
+</div>
 
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=sathushetty7&bg_color=0d1117&color=58a6ff&line=7c3aed&point=ffffff&area=true&hide_border=true" alt="GitHub activity graph" />
+<div align="center">
+  <img width="70%" src="https://streak-stats.demolab.com?user=sathushetty7&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+</div>
 
+---
+
+## 📊 Contribution Activity
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=sathushetty7&theme=tokyo-night&hide_border=true&area=true" width="100%" alt="Contribution Activity Graph" />
 </div>
 
 ---
@@ -143,88 +198,57 @@ mindset: "Learn the fundamentals. Build projects. Keep improving."
 ## 🏆 GitHub Trophies
 
 <div align="center">
-
-  <img src="https://github-profile-trophy.vercel.app/?username=sathushetty7&theme=onestar&no-frame=true&no-bg=true&row=1&column=6" alt="GitHub profile trophies" />
-
+  <img src="https://github-profile-trophy.vercel.app/?username=sathushetty7&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&row=2&column=4" width="100%" alt="GitHub Trophies" />
 </div>
 
 ---
 
-## 🐍 Contribution Snake
+## 🐍 Watch My Contributions Get Eaten!
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sathushetty7/sathushetty7/output/pacman-contribution-graph-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sathushetty7/sathushetty7/output/pacman-contribution-graph.svg">
+    <img alt="Pac-Man contribution graph" src="https://raw.githubusercontent.com/sathushetty7/sathushetty7/output/pacman-contribution-graph.svg" width="100%">
+  </picture>
+</div>
+
+---
+
+## 🎯 My Current Mission
 
 <div align="center">
 
-  <img src="https://raw.githubusercontent.com/sathushetty7/sathushetty7/output/github-contribution-grid-snake.svg" alt="Animated contribution snake" />
-
-</div>
-
-> To enable this animation, add the GitHub Actions workflow below and run it once. The image appears after the workflow successfully publishes the `output` branch.
-
-<details>
-<summary>⚙️ Contribution snake workflow</summary>
-
-Create `.github/workflows/snake.yml` in this profile repository:
-
-```yaml
-name: Generate Contribution Snake
-
-on:
-  schedule:
-    - cron: "0 0 * * *"
-  workflow_dispatch:
-  push:
-    branches:
-      - main
-
-permissions:
-  contents: write
-
-jobs:
-  generate:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Generate snake
-        uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: dist/github-contribution-grid-snake.svg
-
-      - name: Publish animation
-        uses: crazy-max/ghaction-github-pages@v4
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+```text
+📚 Strengthen programming fundamentals
+                  ↓
+🧠 Learn Machine Learning & Deep Learning
+                  ↓
+📊 Build practical Data Science projects
+                  ↓
+🌐 Develop useful web applications
+                  ↓
+🚀 Ship projects and learn from real-world feedback
 ```
 
-</details>
-
----
-
-## 🌐 Connect With Me
-
-<div align="center">
-
-  <a href="https://github.com/sathushetty7">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  </a>
-  <!-- TODO: Replace this URL with your verified LinkedIn profile. -->
-  <a href="https://www.linkedin.com/">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="https://coastalkits.in/">
-    <img src="https://img.shields.io/badge/Coastal_Kits-2563EB?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Coastal Kits" />
-  </a>
-
 </div>
 
 ---
 
+## 🤝 Let's Connect
+
 <div align="center">
+  <a href="https://github.com/sathushetty7">
+    <img src="https://img.shields.io/badge/GitHub-Follow%20Me-181717?style=for-the-badge&logo=github" />
+  </a>
+  <!-- Replace the LinkedIn URL below with your actual profile -->
+  <a href="https://www.linkedin.com/">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+</div>
 
-  ### 💭 *Build. Learn. Improve. Repeat.*
-
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7C3AED,50:2563EB,100:0D1117&height=120&section=footer" width="100%" alt="Animated footer banner" />
-
+<div align="center">
+  <h3>💡 Learn. Build. Experiment. Repeat.</h3>
+  <p><i>Turning curiosity into code, one project at a time.</i></p>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:2C5364&height=120&section=footer" width="100%" />
 </div>
