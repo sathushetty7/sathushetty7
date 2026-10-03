@@ -95,18 +95,6 @@ philosophy: >
 
 ---
 
-## 📊 GitHub Statistics
-
-<div align="center">
-
-  <img width="49%" src="./assets/github-stats.svg" alt="GitHub Statistics" />
-
-</div>
-
-<div align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=sathushetty7&theme=tokyo-night&hide_border=true&area=true" alt="GitHub Activity Graph" />
-</div>
-
 ## 🚀 Featured Projects
 
 <div align="center">
