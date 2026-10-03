@@ -1,1 +1,33 @@
 
+name: Daily Project Check
+
+on:
+  schedule:
+    - cron: "30 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  project-check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Record daily check
+        run: |
+          mkdir -p reports
+          date -u +"Last check: %Y-%m-%d %H:%M UTC" > reports/status.txt
+
+      - name: Commit report if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports/status.txt
+          git diff --cached --quiet || {
+            git commit -m "chore: update project status"
+            git push
+          }
