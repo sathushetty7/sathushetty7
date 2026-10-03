@@ -1,0 +1,140 @@
+
+name: Update GitHub Stats
+
+on:
+  schedule:
+    - cron: "17 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout profile repository
+        uses: actions/checkout@v4
+
+      - name: Generate stats card
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_USERNAME: sathushetty7
+        run: |
+          mkdir -p assets
+
+          python - <<'PY'
+          import json
+          import os
+          import urllib.request
+          from pathlib import Path
+          from html import escape
+
+          username = os.environ["GH_USERNAME"]
+          token = os.environ["GH_TOKEN"]
+
+          query = """
+          query($login: String!) {
+            user(login: $login) {
+              repositories(privacy: PUBLIC) {
+                totalCount
+              }
+              followers {
+                totalCount
+              }
+              repositories(
+                first: 100,
+                privacy: PUBLIC,
+                ownerAffiliations: OWNER
+              ) {
+                nodes {
+                  stargazerCount
+                }
+              }
+              contributionsCollection {
+                contributionCalendar {
+                  totalContributions
+                }
+              }
+            }
+          }
+          """
+
+          payload = json.dumps({
+              "query": query,
+              "variables": {"login": username}
+          }).encode()
+
+          req = urllib.request.Request(
+              "https://api.github.com/graphql",
+              data=payload,
+              headers={
+                  "Authorization": f"Bearer {token}",
+                  "Content-Type": "application/json"
+              }
+          )
+
+          with urllib.request.urlopen(req) as response:
+              result = json.load(response)
+
+          if "errors" in result:
+              raise RuntimeError(result["errors"])
+
+          user = result["data"]["user"]
+          repos = user["repositories"]["totalCount"]
+          followers = user["followers"]["totalCount"]
+          stars = sum(
+              repo["stargazerCount"]
+              for repo in user["repositories"]["nodes"]
+          )
+          contributions = user["contributionsCollection"][
+              "contributionCalendar"
+          ]["totalContributions"]
+
+          stats = [
+              ("Public repositories", repos),
+              ("Followers", followers),
+              ("Stars on latest 100 owned repos", stars),
+              ("Public contributions this year", contributions),
+          ]
+
+          rows = ""
+          for index, (label, value) in enumerate(stats):
+              x = 35 + (index % 2) * 310
+              y = 105 + (index // 2) * 100
+              rows += f"""
+                <rect x="{x}" y="{y}" width="285" height="78"
+                  rx="12" fill="#1f2937" stroke="#374151"/>
+                <text x="{x+16}" y="{y+29}" fill="#9ca3af"
+                  font-size="13">{escape(label)}</text>
+                <text x="{x+16}" y="{y+59}" fill="#7dd3fc"
+                  font-size="25" font-weight="700">{value:,}</text>
+              """
+
+          svg = f"""<svg xmlns="http://www.w3.org/2000/svg"
+            width="660" height="310" viewBox="0 0 660 310">
+            <rect width="100%" height="100%" rx="18" fill="#0d1117"/>
+            <text x="35" y="48" fill="#f0f6fc"
+              font-size="22" font-weight="700">
+              GitHub Statistics
+            </text>
+            <text x="35" y="72" fill="#8b949e"
+              font-size="12">{escape(username)} · Updated daily</text>
+            {rows}
+          </svg>"""
+
+          Path("assets/github-stats.svg").write_text(
+              svg, encoding="utf-8"
+          )
+          PY
+
+      - name: Commit updated stats
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/github-stats.svg
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: update GitHub stats"
+            git push
+          fi
