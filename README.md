@@ -62,11 +62,6 @@ philosophy: >
 <br clear="right"/>
 
 ---
-<div align="center">
-  <img src="./assets/dynamic-header.gif" width="100%" alt="Dynamic day and night header" />
-</div>
-
----
 
 ## 🛠️ Tech Arsenal
 
