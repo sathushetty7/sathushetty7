@@ -11,14 +11,14 @@
       <text x="51" y="134" fill="#9ca3af"
         font-size="13">Public repositories</text>
       <text x="51" y="164" fill="#7dd3fc"
-        font-size="25" font-weight="700">30</text>
+        font-size="25" font-weight="700">28</text>
     
       <rect x="345" y="105" width="285" height="78"
         rx="12" fill="#1f2937" stroke="#374151"/>
       <text x="361" y="134" fill="#9ca3af"
         font-size="13">Followers</text>
       <text x="361" y="164" fill="#7dd3fc"
-        font-size="25" font-weight="700">15</text>
+        font-size="25" font-weight="700">14</text>
     
       <rect x="35" y="205" width="285" height="78"
         rx="12" fill="#1f2937" stroke="#374151"/>
@@ -32,6 +32,6 @@
       <text x="361" y="234" fill="#9ca3af"
         font-size="13">Contributions this year</text>
       <text x="361" y="264" fill="#7dd3fc"
-        font-size="25" font-weight="700">174</text>
+        font-size="25" font-weight="700">169</text>
     
 </svg>
